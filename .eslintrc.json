@@ -75,13 +75,14 @@
       }
     ],
     "@typescript-eslint/explicit-function-return-type": [
-      "error",
+      "ignore",
       {
         "allowExpressions": true
       }
     ],
     "@typescript-eslint/camelcase": "off"
   },
+  "@typescript-eslint/explicit-module-boundary-types": "off",
   "settings": {
     "react": {
       "version": "detect"
