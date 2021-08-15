@@ -1,1 +1,45 @@
-// TODO
+.contentContainer {
+  max-width: 720px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.banner {
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.posts {
+  margin: 3rem 0;
+
+  h1 {
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: -0.5px;
+  }
+}
+
+.dayAuthorReadingTimeInfo {
+  display: flex;
+  margin-top: 2rem;
+
+
+  div {
+    svg {
+      margin-right: 0.5rem;
+    }
+    align-items: center;
+    display: flex;
+    margin-right: 1.75rem;
+  }
+}
+
+.postHeader {
+  margin-top: 2rem;
+}
+
+.postContent {
+  margin-top: 1rem;
+}
